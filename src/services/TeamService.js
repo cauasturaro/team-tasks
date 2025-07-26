@@ -3,8 +3,8 @@ const { Team, User } = require('../models/index');
 class TeamService {
 
     // CREATE
-    static async create(data) {
-        const team = await Team.create(data);
+    static async create() {
+        const team = await Team.create({});
         return team;
     }
 

@@ -33,4 +33,4 @@ const Task = sequelize.define('Task', {
     timestamps: true
 });
 
-module.exports = Task;
+module.exports = Task
