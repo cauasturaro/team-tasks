@@ -11,7 +11,7 @@ const pool = new Pool({
 });
 
 pool.on('connect', () => {
-    console.log('[TT backend]: Database Connected.');
+    console.log('[TT BACKEND]: Database Connected.');
 });
 
 const { Sequelize } = require('sequelize');
